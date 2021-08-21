@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "parcel index.html --out-dir build",
-    "build": "rm -rf build && parcel build index.html --out-dir build --no-source-maps"
+    "start": "parcel index.html --out-dir build --no-source-maps",
+    "build": "rm -rf build/* && parcel build index.html --out-dir build --no-source-maps --no-content-hash"
 },
   "keywords": [],
   "author": "",
