@@ -1,0 +1,17 @@
+{
+  "name": "learn-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html --out-dir build",
+    "build": "rm -rf build && parcel build index.html --out-dir build --no-source-maps"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
