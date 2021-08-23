@@ -4,14 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "parcel index.html --out-dir build --no-source-maps",
+    "start": "parcel index.html --no-source-maps --dist-dir build",
     "build": "rm -rf build/* && parcel build index.html --out-dir build --no-source-maps --no-content-hash"
 },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.0.0-rc.0"
   }
 }
